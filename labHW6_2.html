@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function change()
+        {
+            document.getElementById("name").style.color ='green';
+            document.getElementById("age").style.color ='green';
+            document.getElementById("birt").style.color ='green';
+        }
+    </script>
+</head>
+<body>
+    <form onfocusout="change()">
+    <label>Name: </label><input type="text" id="name" ><br>
+    <label>Age: </label><input type="text" id="age" size="5"><br>
+    <label>Birthdate: </label><input type="text" id="birt"  size="12"><br>
+    </form>    
+</body>
+</html>
